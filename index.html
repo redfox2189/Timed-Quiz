@@ -5,12 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YourBank</title>
-    <script src="Java/timer.js" defer></script>
+    <script type="module" src="Java/timer.js" defer></script>
     <link rel="stylesheet" href="basic.css">
 </head>
 
 <body>
-    <h3>You have <span id="balance">0</span> in your account.</h3>
+    <span id="balance">1000</span> Snails
+    <br>
+    <br>
     <form id = "transactionForm">
         <div>
             <label for="Deposit">Deposit</label>
@@ -27,7 +29,7 @@
         </div>
         <br>
         <div>
-            <button type = "button" id="SubBtn"> Submit</button>
+            <button type = "submit" id="SubBtn"> Submit</button>
         </div>
     </form>
 </body>
